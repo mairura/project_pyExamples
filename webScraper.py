@@ -9,6 +9,7 @@ response = requests.get(url)
 
 # Create a BeautifulSoup object that parses the HTML content
 soup = BeautifulSoup(response.content, 'html.parser')
+# print(soup.prettify())
 
 # Find all the links on the webpage
 links = soup.find_all("a")
