@@ -1,4 +1,4 @@
-import re
+import re  # A module that to compile a regex pattern that matches valid email address
 
 
 def val_email(email):
@@ -11,7 +11,7 @@ def val_email(email):
 
 val_email(email="elon@example.com")
 # Valid email address:)
-val_email(email="allan@gmail.com")
+val_email(email="allan@gmail.c")  # A test
 # Invalid email address!!
 val_email(email="elvis@ngeni.io")
 # Invalid email address!!
