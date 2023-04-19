@@ -2,7 +2,7 @@ import re
 
 
 def extract_numbers(text):
-    pattern = r"\d+"
+    pattern = r"\d+"  # Used to match a number in regex
     return re.findall(pattern, text)
 
 
