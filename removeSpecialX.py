@@ -27,3 +27,8 @@ original_string = 'Hello! How are you? #today'
 clean_string = remove_special_characters(original_string)
 print(f"Original String: {original_string}")
 print(f"Clean String: {clean_string}")
+
+# Using replace() method
+def remove_special_characters(input_string):
+	# use list comprehension
+	return "".join([c for c in input_string if c.isalnum() or c.isspace()])
