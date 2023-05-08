@@ -1,6 +1,6 @@
 import os
 
-file_path = 'path/to/file'
+file_path = '/home/ted/Documents/Projects/PythonExamples/Examples'
 
 file_size_bytes = os.path.getsize(file_path)
 
